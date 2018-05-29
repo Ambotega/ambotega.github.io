@@ -42,9 +42,7 @@ input[type="radio"]{
 }
 
 .questionLabel{
-   margin-top: 50px;
-   line-hieght: 0.50;
-
+   margin-top: 10px;
 }
 
 .questionLabel b{
@@ -200,4 +198,7 @@ width: 100%;
 
 .writeUp{
     text-align: justify;
+}
+.label{
+    line-hieght: 0.50;
 }
