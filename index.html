@@ -4,6 +4,7 @@
         <title>
             TEST YOUR FIT WITH WORK AND BE THE WISER
         </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link href="images/faviconIco.ico" rel="shortcut icon">
         <link href="css/bootstrap.css" rel="stylesheet"/>
         <link href="css/style.css" rel="stylesheet"/>
@@ -38,7 +39,7 @@
                 render(){
                     return (
                         <div className="homepage">
-                            <div class="header">
+                            <div className="header">
                                 <h2>TEST YOUR FIT WITH WORK AND BE THE WISER</h2>
                                 Two self assessment tests will calibrate your fit with your workplace and your prospects for a fulfilling career. You will then be the wiser.
                             </div>
@@ -51,7 +52,7 @@
                                 <img src={'images/IconOC.png'} />
 <h3>THE ORGANIZATIONAL COLONOSCOPY</h3>
                                 The second is <b style={{color: 'purple'}}>The Organizational Colonoscopy</b> - this measures the health of the organization in which you work.<br/>
-                                Upon completion of each test you will be placed in the color-coded <b><i>Box of Fortune, Mid-fortune or Misfortune</i></b>. <span style={{color: 'green'}}>GREEN</span> is best: <span style={{color: 'yellow'}}>YELLOW</span> is cautionary: <span style={{color: 'red'}}>RED</span> is perilous.<br/>
+                                Upon completion of each test you will be placed in the color-coded <b><i>Box of Fortune, Mid-fortune or Misfortune</i></b>. <span style={{color: 'green'}}>GREEN</span> is best: <div className="yellow_note">YELLOW</div> is cautionary: <span style={{color: 'red'}}>RED</span> is perilous.<br/>
                             <br/>
                                 <img src={'images/IconResult.png'} />
                                 <h3>FORTUNE, MID-FORTUNE or MISFORTUNE</h3>
