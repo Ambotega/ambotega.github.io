@@ -199,6 +199,6 @@ width: 100%;
 .writeUp{
     text-align: justify;
 }
-.label{
-    line-hieght: 10;
+label{
+    line-hieght: 0.8;
 }
