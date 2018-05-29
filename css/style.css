@@ -199,6 +199,6 @@ width: 100%;
 .writeUp{
     text-align: justify;
 }
-label{
-    line-height: 10;
+input[type="radio"]{
+    margin-top: -20px;
 }
