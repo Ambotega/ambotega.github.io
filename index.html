@@ -391,7 +391,7 @@
                             </div>
                             <b className="fbottom">The Organizational Colonoscopy</b><br/>
 
-                            <span> <span style={{color: color1 == "Yellow"?"#ffb759":color1}}>{color1}</span> On <span style={{color: color2 == "Yellow"?"#ffb759":color2}}>{color2}</span> </span>
+                            <span> <span style={{color: color1 == "Yellow"?"Yellow":color1}}>{color1}</span> On <span style={{color: color2 == "Yellow"?"Yellow":color2}}>{color2}</span> </span>
 
                             <br/>
                             <div className="writeUp">
@@ -404,11 +404,11 @@
                             <div className="marginTop" style={{width: "100%;"}}>
                                 <button onClick={()=>{
                                         screens.setState({screen: 2, answers: this.answers});
-                                }} className="btn btn-info pull-right my-btn">PREVIOUS</button>
+                                }} className="btn btn-info pull-left my-btn">PREVIOUS</button>
                                 
                                 <button onClick={()=>{
                                         screens.setState({screen: 1, answers: this.answers});
-                                }} className="btn btn-info pull-left my-btn">StartOver</button>
+                                }} className="btn btn-info pull-right my-btn">StartOver</button>
     
                                 
                            
