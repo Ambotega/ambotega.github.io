@@ -52,7 +52,7 @@
                                 <img src={'images/IconOC.png'} />
 <h3>THE ORGANIZATIONAL COLONOSCOPY</h3>
                                 The second is <b style={{color: 'purple'}}>The Organizational Colonoscopy</b> - this measures the health of the organization in which you work.<br/>
-                                Upon completion of each test you will be placed in the color-coded <b><i>Box of Fortune, Mid-fortune or Misfortune</i></b>. <span style={{color: 'green'}}>GREEN</span> is best: <span style={{color: '#b0b02e'}}>YELLOW</span> is cautionary: <span style={{color: 'red'}}>RED</span> is perilous.<br/>
+                                Upon completion of each test you will be placed in the color-coded <b><i>Box of Fortune, Mid-fortune or Misfortune</i></b>. <span style={{color: 'green'}}>GREEN</span> is best: <span style={{color: '#ffb759'}}>YELLOW</span> is cautionary: <span style={{color: 'red'}}>RED</span> is perilous.<br/>
                             <br/>
                                 <img src={'images/IconResult.png'} />
                                 <h3>FORTUNE, MID-FORTUNE or MISFORTUNE</h3>
@@ -276,7 +276,7 @@
                         return "green"
                     }
                     if(score >= 31){
-                        return "yellow";
+                        return '#ffb759';
                     }
                     // if(score >= 31){
                     //     return "purple";
@@ -369,7 +369,7 @@
                         return "Green"
                     }
                     if(score >= 36){
-                        return "Yellow";
+                        return '#ffb759';
                     }
                     return "Red";
                 }
@@ -391,7 +391,7 @@
                             </div>
                             <b className="fbottom">The Organizational Colonoscopy</b><br/>
 
-                            <span> <span style={{color: color1 == "Yellow"?"#b0b02e":color1}}>{color1}</span> On <span style={{color: color2 == "Yellow"?"#b0b02e":color2}}>{color2}</span> </span>
+                            <span> <span style={{color: color1 == "Yellow"?"#ffb759":color1}}>{color1}</span> On <span style={{color: color2 == "Yellow"?"#ffb759":color2}}>{color2}</span> </span>
 
                             <br/>
                             <div className="writeUp">
