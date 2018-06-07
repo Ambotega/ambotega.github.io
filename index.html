@@ -167,8 +167,8 @@
                                 <div align="left">
                                     <div>
                                         <b>Scoring:</b><br/><br/>
-                                        1) No, the organization <br/>
-                                        2) Not Quite me<br/>
+                                        1) No, this is not me <br/>
+                                        2) Not quite me<br/>
                                         3) Yes, this is me.<br/>
                                     </div>
                                 </div>
@@ -260,9 +260,14 @@
                                 thriving, satisfied with your contribution, consider yourself to be valued worker and
                                 you have those attributes that best ensure excellent career potential.</p>
                         }
-                        if (score >= 36) {
+                        if (score >= 41) {
                             return <p><b style={{color: color}} className="scoreText">Box of Mid-fortune</b>You are
                                 generally content, enjoying what you do and have reasonable to good career propects.</p>
+                        }
+			
+                        if (score >= 31) {
+                            return <p><b style={{color: color}} className="scoreText">Box of Misfortune</b>You are seriously struggling at work,
+			     troubled with your job and face an uncertain future.</p>
                         }
 
                         return <p><b style={{color: color}} className="scoreText">Box of Misfortune</b>You fail to meet
@@ -273,11 +278,15 @@
                             return <p><b style={{color: color}} className="scoreText">Box of Fortune</b>
                                 Organization is thriving; optimism and longevity apparent. You are in a great place.</p>
                         }
-                        if (score >= 36) {
+                        if (score >= 41) {
                             return <p><b style={{color: color}} className="scoreText">Box of Mid-fortune</b>Reasonable state of health but attention required with variables scoring 1.</p>
                         }
+			
+                        if (score >= 31) {
+                            return <p><b style={{color: color}} className="scoreText">Box of Misfortune</b>Ill health apparent in important areas - intervention required</p>
+                        }
 
-                        return <p><b style={{color: color}} className="scoreText">Box of Misfortune</b>Ill health apparent in important areas-intervention required</p>
+                        return <p><b style={{color: color}} className="scoreText">Box of Misfortune</b>Prognosis is bad. Organization health is critical - leave if you can</p>
                     }
                 }
 
